@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<view>
+  <property name='pageManagedBean' value='Portlet1DefaultviewView' />
+  <property name='preferencesBean' value='Portlet1' />
+  <design-time-attribute name='portlet' value='Portlet1' />
+  <control component-type='com.webmethods.caf.faces.output.ErrorMessages' renderer-type='com.webmethods.caf.faces.output.ErrorMessages'>
+    <property name='id' value='messages' />
+  </control>
+  <control component-type='com.webmethods.caf.faces.component.portleturl.PortletUrlLink' renderer-type='com.webmethods.caf.faces.portleturl.Link'>
+    <property name='id' value='portletUrlLink' />
+    <control component-type='javax.faces.HtmlOutputText' renderer-type='com.webmethods.caf.faces.Text'>
+      <property name='id' value='HI All' />
+      <property name='raw' value='true' />
+      <property name='value' value='insert text here' />
+    </control>
+  </control>
+  <control component-type='com.webmethods.caf.faces.command.CommandForm' renderer-type='com.webmethods.caf.faces.Form'>
+    <property name='defaultFocus' value='_first' />
+    <property name='id' value='defaultForm' />
+  </control>
+  <control component-type='com.webmethods.caf.faces.component.portlet.TargetComponents' renderer-type='com.webmethods.caf.faces.render.html.output.TargetComponents'>
+    <property name='id' value='targetComponents' />
+  </control>
+</view>

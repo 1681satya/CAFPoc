@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><gadgetDefinition>
+  <gadgetName>MDakk</gadgetName>
+  <gadgetTitle>k</gadgetTitle>
+  <gadgetSettingsTitle/>
+  <gadgetDescription/>
+  <gadgetID>ED595AE0-76D2-1034-B001-1</gadgetID>
+  <gadgetModules>
+    <module>MDakk-ED595AE0-76D2-1034-B001-1</module>
+  </gadgetModules>
+  <gadgetScripts>
+    <script>/testdummytasks/MDakk/scripts/config.js</script>
+    <script>/testdummytasks/MDakk/scripts/custom.js</script>
+  </gadgetScripts>
+  <gadgetCSS>
+    <style>/testdummytasks/MDakk/styles/gadget.css</style>
+  </gadgetCSS>
+  <gadgetIcon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  <gadgetGroup>testdummytasks</gadgetGroup>
+  <gadgetType>Default with empty stubs</gadgetType>
+  <gadgetURL>/wmbcgadgets/#/MDakk</gadgetURL>
+  <parameters>
+    <servers/>
+    <events>
+      <publish/>
+      <subscribe/>
+    </events>
+    <parameter/>
+    <configParams type="dependencies">
+      <configParam/>
+    </configParams>
+    <configParams type="framework">
+      <configParam>
+        <key>gadgetRootContext</key>
+        <value>/testdummytasks/MDakk</value>
+      </configParam>
+    </configParams>
+  </parameters>
+</gadgetDefinition>
